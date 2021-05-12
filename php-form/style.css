@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(45deg, #609154, #5065ce);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 80vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.kotak {
+  width: 70vh;
+  height: 120vh;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  line-height: 40px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+input {
+  padding: 0.5rem;
+}
+
+#nama,
+#nim {
+  width: 8cm;
+}
+
+.submit,
+.reset {
+  width: 100vh;
+  height: 30vh;
+  padding: 5px 0 10px 0;
+  font-family: "Montserrat", sans-serif;
+}
